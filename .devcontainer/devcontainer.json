@@ -1,0 +1,13 @@
+{
+    "name": "flutter",
+    "build": {
+      "dockerfile": "Dockerfile",
+      "context": "."
+    },
+    "customizations": {
+      "codesandbox": {
+        "containerRuntime": "docker"
+      }
+    }
+  }
+  
